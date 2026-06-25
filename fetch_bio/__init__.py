@@ -1,0 +1,1 @@
+from .fetch_bio_terms import query_bioportal, query_uniprot, get_bio_info, get_bio_info_batch
