@@ -21,10 +21,6 @@ This project is built using Hatchling and requires Python 3.12 or higher.
 ```bash
 uv add git+https://github.com/WeiweiAi/fetch-bio-terms.git
 ```
-or 
-```bash
-uv tool install git+https://github.com/WeiweiAi/fetch-bio-terms.git
-```
 
 **Using `pip`:**
 ```bash
@@ -35,7 +31,7 @@ pip install git+https://github.com/WeiweiAi/fetch-bio-terms.git.
 
 ### Command Line Interface (CLI)
 
-Installing the package automatically registers the `fetch_bio` CLI tool. For the best experience, install it via `uv tool install` to make the `fetch_bio` command available globally in any terminal window. This lets you run `fetch_bio` on its own, without `uv run`.
+Installing the package automatically registers the `fetch_bio` CLI tool. 
 
 **Basic Usage:**
 ```bash
